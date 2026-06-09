@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-LABEL maintainer="Eazytraining"
+LABEL maintainer="Yann Assi <yann84637@gmail.com>"
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y nginx git
 RUN rm -Rf /var/www/html/*
